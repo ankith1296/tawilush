@@ -472,4 +472,10 @@ footer {
   width: 40rem;
 }
 
+.badge-image {
+  height: 5rem;
+  width: 12rem;
+  padding-bottom: 5px;
+}
+
 /* ------------------------------------ */
