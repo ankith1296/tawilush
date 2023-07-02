@@ -330,6 +330,7 @@ footer {
 .explore-bottom {
   /* position: relative; */
   margin-top: 42rem;
+  padding-top: 6rem;
   margin-bottom: 3rem;
   height: 40rem;
   display: flex;
