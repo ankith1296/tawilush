@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rosarivo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
 
 * {
   margin: 0;
@@ -98,19 +99,23 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+
   /* background-color: aqua; */
 }
 
 .section2-top {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex: 1;
   color: #888;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   /* background-color: aquamarine; */
-  padding: 0% 15%;
+  padding: 1% 12%;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -118,8 +123,11 @@ body {
   flex: 2;
   display: flex;
   flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 4rem 0;
   /* background-color: royalblue; */
-  height: 20%;
+  height: 50rem;
   background-image: url("../assets/images/2\ Introducing\ Lush.png");
   background-size: cover;
   background-position: center;
@@ -136,18 +144,19 @@ body {
   /* background-color: aliceblue; */
   flex: 1;
   /*arrange items inside to center*/
-  margin-left: 20rem;
+  margin-left: 10rem;
   display: flex;
   flex-direction: column;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Cinzel", serif;
+  font-weight: 100;
   justify-content: center;
   align-items: center;
   padding: 0% 20%;
   color: rgb(255, 255, 255);
 }
 .section2-bottom-left-title {
-  margin-top: 14rem;
+  margin-top: 10rem;
 
   padding-right: 20rem;
 }
@@ -165,7 +174,9 @@ body {
   flex: 2;
   flex-direction: column;
   align-items: center;
-  padding-top: 2rem;
+  margin-left: 6rem;
+  padding-left: 4rem;
+  /* padding-top: 1rem; */
   /* justify-content: space-around; */
   /* background-color: aliceblue; */
   /* padding: 10% 0%; */
@@ -195,23 +206,19 @@ body {
   color: #ffffff;
 }
 
-/* ------------------------------------ */
-/*27-06-2023*/
-
-/* ------------------------------------------ */
 .section2-bottom-right-button {
   display: inline-block;
-  padding: 8px;
+  padding: 0.8rem;
   margin: 1rem 0rem;
   border: 2px solid #ffffff;
-  border-radius: 20px;
+  border-radius: 30px;
   background-color: transparent;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   cursor: pointer;
-  width: 17rem;
+  width: 24rem;
   transition: transform 0.3s ease;
 }
 
@@ -287,6 +294,15 @@ footer {
   .section1 .navigation .menu li a {
     color: #000000;
   }
+
+  .section2 .features-section {
+    flex-direction: column;
+
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 3rem; */
+    justify-content: space-around;
+  }
 }
 
 /* -------------------------------------- */
@@ -313,7 +329,7 @@ footer {
 
 .explore-bottom {
   position: relative;
-  margin-top: 3rem;
+  margin-top: 42rem;
   margin-bottom: 3rem;
   height: 40rem;
   display: flex;
@@ -399,6 +415,89 @@ footer {
 .explore-bottom:hover {
   transform: scale(1.05);
   backdrop-filter: blur(8px);
+}
+
+.section2-top-upper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  max-height: 35rem;
+}
+
+.sectio1-hero-description {
+  padding-bottom: 2rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: center;
+}
+
+.features-section {
+  display: flex;
+  color: #838080;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  flex-direction: row;
+  margin-top: 4rem;
+  width: 90rem;
+  justify-content: space-around;
+}
+
+.image-column-section2 {
+  /* height: 10rem; */
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.image-column-section2 img {
+  height: 7rem;
+  width: 7rem;
+}
+
+.image-column-section2 p {
+  margin-top: 2rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #888;
+  /* padding-left: 1rem; */
+  align-items: center;
+}
+
+.get-in-touch-button {
+  /* padding: 2rem; */
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.section2-top-upper a {
+}
+
+.get-in-touch-button {
+  /* width: 8rem; */
+  /* padding-top: 5rem; */
+  display: inline-block;
+  padding: 10px;
+  color: #838080;
+  /* margin: 1rem 0rem; */
+  border: 2px solid #838080;
+  border-radius: 30px;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  width: 22rem;
+  height: 4rem;
+  transition: transform 0.3s ease;
 }
 
 /* -------------------------------------- */

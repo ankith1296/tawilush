@@ -405,6 +405,7 @@ footer {
 
 .section-new-row {
   display: flex;
+  position: relative;
 }
 
 .section-new-image {
@@ -442,9 +443,23 @@ footer {
   display: flex;
   font-family: "Cinzel", serif;
 }
+
+.badge-image {
+  position: absolute;
+  left: 66rem;
+  bottom: 8.1rem;
+  height: 4rem;
+  width: 9rem;
+}
+
+.resort-content {
+  padding-top: 1rem;
+}
+
 /* ---------------------------------------- */
 @media only screen and (max-width: 768px) {
   .section-new-row {
     display: flex;
+    flex-direction: column;
   }
 }
