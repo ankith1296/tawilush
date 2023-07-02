@@ -329,8 +329,8 @@ footer {
 
 .explore-bottom {
   /* position: relative; */
-  margin-top: 42rem;
-  padding-top: 6rem;
+  margin-top: 50rem;
+
   margin-bottom: 3rem;
   height: 40rem;
   display: flex;
@@ -340,7 +340,7 @@ footer {
   background-image: url("../assets/images/3\ Lush_Yuvaan.png");
   background-size: cover;
   background-position: center;
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease; */
 }
 
 .explore-title {
