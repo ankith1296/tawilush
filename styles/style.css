@@ -115,7 +115,7 @@ body {
   /* background-color: aquamarine; */
   padding: 1% 12%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 
@@ -329,8 +329,8 @@ footer {
 
 .explore-bottom {
   /* position: relative; */
-  margin-top: 50rem;
-
+  margin-top: 42rem;
+  padding-top: rem;
   margin-bottom: 3rem;
   height: 40rem;
   display: flex;
@@ -340,7 +340,7 @@ footer {
   background-image: url("../assets/images/3\ Lush_Yuvaan.png");
   background-size: cover;
   background-position: center;
-  /* transition: transform 0.3s ease; */
+  transition: transform 0.3s ease;
 }
 
 .explore-title {
@@ -397,7 +397,7 @@ footer {
 }
 
 .explore {
-  /* position: absolute; */
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -458,14 +458,14 @@ footer {
 }
 
 .image-column-section2 img {
-  height: 7rem;
-  width: 7rem;
+  height: 6rem;
+  width: 6rem;
 }
 
 .image-column-section2 p {
   margin-top: 2rem;
   display: flex;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
   color: #888;
