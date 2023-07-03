@@ -434,6 +434,15 @@ footer {
   flex-direction: column;
 }
 
+.section-hero-phuket {
+  background-image: url("../assets/images/Phuket\ Hero\ Image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .section-title {
   display: flex;
   flex-direction: column;
