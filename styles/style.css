@@ -473,16 +473,12 @@ footer {
   align-items: center;
 }
 
-.get-in-touch-button {
-  /* padding: 2rem; */
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-}
-
 .section2-top-upper a {
 }
 
 .get-in-touch-button {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   /* width: 8rem; */
   /* padding-top: 5rem; */
   display: inline-block;
@@ -499,6 +495,37 @@ footer {
   width: 22rem;
   height: 4rem;
   transition: transform 0.3s ease;
+}
+.get-in-touch-button:hover {
+  background-color: #838080;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.whatsapp-floating-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #25d366;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  z-index: 999;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-floating-btn:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp-floating-btn i {
+  vertical-align: middle;
 }
 
 /* -------------------------------------- */
