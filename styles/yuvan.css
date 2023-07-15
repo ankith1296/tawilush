@@ -13,7 +13,7 @@ body {
 }
 
 .section1 {
-  background-image: url("../assets/images/4\ Yuvaan\ Hero\ Image.png");
+  background-image: url("../assets/images/Yuvaan\ Hero\ Image.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -487,4 +487,93 @@ footer {
   padding-bottom: 5px;
 }
 
+.nav-buttons {
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  padding: 1rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons:hover {
+  border: 1px solid #9bc699;
+  color: #9bc699;
+}
+
+.nav-button-group {
+  margin-right: 8rem;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main_nav {
+  display: flex;
+}
+.main_nav ul li:not(:last-of-type) {
+  margin-right: 49px;
+}
+.main_nav ul li a {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+.main_nav ul li a:hover,
+.main_nav ul li.active a {
+  color: #246266;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons {
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid white;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  /* padding: 1rem; */
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-button-group {
+  display: flex;
+  width: 36rem;
+
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin-right: 8rem;
+}
+
+.nav-buttons:hover {
+  border: 1px solid #9bc699;
+  color: #9bc699;
+  cursor: pointer;
+}
+
+.menu li {
+  font-size: 1.4rem;
+}
+.menu ul {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
 /* ------------------------------------ */

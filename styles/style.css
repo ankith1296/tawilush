@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 * {
   margin: 0;
@@ -16,7 +17,7 @@ body {
 }
 
 .section1 {
-  background-image: url("../assets/images/1\ Lush\ Hero\ Image.png");
+  background-image: url("../assets/images/Lush\ Hero\ Image.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -30,13 +31,15 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2% 3%;
+  padding-top: 2.5rem;
+  padding-right: 3.875rem;
+  padding-left: 3.875rem;
   flex: 1;
   /* background-color: aqua; */
 }
 
 .section1-top .logo img {
-  height: 7rem;
+  height: 6rem;
 }
 
 .section1-top .navigation .hamburger {
@@ -47,7 +50,7 @@ body {
 
 .section1-top .navigation .hamburger .line {
   width: 30px;
-  height: 3px;
+  /* height: 3px; */
   background-color: #ffffff;
   margin-bottom: 5px;
 }
@@ -56,10 +59,11 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .section1-top .navigation .menu li {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .section1-top .navigation .menu li a {
@@ -99,7 +103,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-
+  margin-top: 2rem;
   /* background-color: aqua; */
 }
 
@@ -476,6 +480,58 @@ footer {
 .section2-top-upper a {
 }
 
+.section2-upper-download-brochure {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #888;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.download-brochure-button {
+  /* display: inline-block;
+  margin: 2rem;
+  width: 22.25rem;
+  height: 3.5rem;
+  border-radius: 40px;
+  border: 1px solid #9bc699;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #9bc699;
+  text-decoration: none;
+  font-size: 1.375rem;
+  transition: 0.3s ease-in; */
+  margin: 2rem;
+  width: 22.25rem;
+  padding: 10px 20px;
+  display: flex;
+  color: #9bc699;
+  /* margin: 1rem 0rem; */
+  border: 1px solid #9bc699;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.375rem;
+  cursor: pointer;
+
+  height: 4rem;
+  transition: 0.3s ease;
+}
+
+.download-brochure-button :hover {
+  /* border: 1px solid #1d1d1d;
+  color: #1d1d1d; */
+  color: #838080;
+  border: 1px solid #838080;
+}
+
 .get-in-touch-button {
   margin-top: 4rem;
   margin-bottom: 2rem;
@@ -483,9 +539,9 @@ footer {
   /* padding-top: 5rem; */
   display: inline-block;
   padding: 10px;
-  color: #838080;
+  color: #9bc699;
   /* margin: 1rem 0rem; */
-  border: 2px solid #838080;
+  border: 1px solid #9bc699;
   border-radius: 30px;
 
   text-align: center;
@@ -494,12 +550,11 @@ footer {
   cursor: pointer;
   width: 22rem;
   height: 4rem;
-  transition: transform 0.3s ease;
+  transition: 0.3s ease;
 }
 .get-in-touch-button:hover {
-  background-color: #838080;
-  color: #ffffff;
-  transform: scale(1.1);
+  color: #838080;
+  border: 1px solid #838080;
 }
 
 .whatsapp-floating-btn {
@@ -526,6 +581,90 @@ footer {
 
 .whatsapp-floating-btn i {
   vertical-align: middle;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons {
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid white;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  /* padding: 1rem; */
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.nav-button-group {
+  display: flex;
+  width: 36rem;
+
+  justify-content: space-between;
+  font-size: 1.4rem;
+  margin-right: 8rem;
+}
+
+.nav-buttons:hover {
+  border: 1px solid #9bc699;
+  color: #9bc699;
+  cursor: pointer;
+}
+
+.menu li {
+  font-size: 1.4rem;
+}
+.menu ul {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+.location-thumbnail-section {
+  margin: 3rem 8rem;
+
+  /* background-color: black; */
+  height: 50rem;
+  margin-top: 6rem;
+}
+
+.location-thumbnail-first-row {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.location-thumbnail-second-row {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.location-thumbnail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.thumbnail-image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 30px;
+}
+
+.thumbnail-description {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #000000;
 }
 
 /* -------------------------------------- */
